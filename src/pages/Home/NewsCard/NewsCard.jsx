@@ -30,7 +30,7 @@ const NewsCard = ({ news }) => {
             </Card.Body>
             <Card.Footer className="text-secondary mx-5 bg-white d-flex justify-content-between align-items-center p-0">
                 <div>
-                    <ReactStars value={rating.number} size={24}></ReactStars>
+                    <ReactStars edit={false} value={rating.number} size={24}></ReactStars>
                 </div>
                     <span className='d-flex align-items-center'><BsFillEyeFill className='fs-4 me-2'></BsFillEyeFill>
                     {total_view}</span>

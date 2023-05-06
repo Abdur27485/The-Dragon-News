@@ -10,7 +10,6 @@ const NewsLayout = () => {
     return (
         <div>
             <Header></Header>
-
             <Container>
                 <Row>
                     <Col lg={9}>

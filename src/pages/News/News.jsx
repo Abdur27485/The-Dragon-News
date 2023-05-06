@@ -2,10 +2,12 @@ import React from 'react';
 import { Link, useLoaderData, useLocation } from 'react-router-dom';
 import { Button, Image } from 'react-bootstrap';
 import { BsArrowLeft } from "react-icons/bs";
+import useTitleState from '../../hooks/UseTitleState';
 
 
 
 const News = () => {
+    useTitleState('News Details')
     const {title, image_url, details, category_id} = useLoaderData()
     return (
         <div className='p-3 border rounded'>
